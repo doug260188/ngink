@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'wget '
+                sh 'wget https://github.com/doug260188/novo/blob/main/dockerfile'
+                sh 
             }
         }
     }
