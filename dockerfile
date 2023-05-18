@@ -10,6 +10,6 @@ RUN apt install -y unzip
 RUN apt install nginx -y
 
 
-RUN wget https://github.com/doug260188/novo/blob/main/test.zip -O site.zip
+RUN wget https://github.com/doug260188/novo/blob/main/site.zip
 RUN unzip site.zip -d /var/www/html
 WORKDIR /var/www/html
