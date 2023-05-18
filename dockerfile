@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 LABEL maintaner Rodrigo Silva Rodrigues  <rsrodrigues.88@hotmail.com>
 
-RUN apt install update && upgrade -y
+RUN apt update && upgrade -y
 
 RUN apt install -y wget
 RUN apt install -y unzip
