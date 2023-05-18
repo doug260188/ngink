@@ -14,5 +14,6 @@ RUN apt install nginx -y
 
 #BAIXANDO E DIRECIONANDO ARQUIVO PARA DIRETORIO
 RUN wget https://github.com/doug260188/novo/blob/main/site.zip
+RUN ls -l ; pwd
 RUN 7z x site.zip /var/www/html
 
