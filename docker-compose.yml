@@ -3,7 +3,6 @@ services:
   nginx:
     image: doug260188/ubuntu:latest
     restart: always
-    
     ports:
-      - 80:80    
+      - 80:8084
        
