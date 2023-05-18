@@ -8,6 +8,13 @@ pipeline {
                 sh 'docker build -t doug260188/ubuntu:latest .'
             }
         }
+        stage('Run Image') {
+            steps {
+                sh 'wget https://github.com/doug260188/novo/blob/main/docker-compose'
+                sh 'docker-compose up -d .'
+            }
+        }
+    
     }
 }
 
