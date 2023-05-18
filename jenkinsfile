@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Run Image') {
             steps {
-                sh 'wget https://github.com/doug260188/novo/blob/main/docker-compose'
+                sh 'wget https://github.com/doug260188/novo/blob/main/docker-compose.yml'
                 sh 'docker-compose up -d .'
             }
         }
