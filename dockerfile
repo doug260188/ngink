@@ -8,6 +8,7 @@ RUN apt upgrade -y
 
 #INTALANDO SERVIÇOS
 RUN apt install wget -y
+RUN apt install p7zip-full -y
 RUN apt install unzip -y
 RUN apt install nginx -y
 
