@@ -4,5 +4,5 @@ services:
     image: doug260188/ubuntu:latest
     restart: always
     ports:
-      - 80:8084
+      - 8082:80
        
