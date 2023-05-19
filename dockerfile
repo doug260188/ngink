@@ -12,7 +12,7 @@ RUN apt install zip unzip -y
 RUN apt install nginx -y
 
 #BAIXANDO E DIRECIONANDO ARQUIVO PARA DIRETORIO
-RUN wget https://raw.githubusercontent.com/doug260188/novo/main/test.zip -O html.zip
+RUN wget https://raw.githubusercontent.com/doug260188/novo/main/html.zip
 RUN rm -rf /usr/share/nginx/html
 RUN unzip html.zip -d /usr/share/nginx/
 
